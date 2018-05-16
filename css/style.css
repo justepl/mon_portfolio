@@ -70,6 +70,7 @@ a, a:hover {
 }
 /* baniere */
 
+
 .banner {
 	width: 100%;
 	max-width: 100%;
@@ -121,20 +122,24 @@ a, a:hover {
 	color: #ffffff;
 	text-shadow: 1px 1px 20px #000000;
 }
-
+.inner-banner .btn-custom {
+    background-color: #E37B40;
+    color: #000000;
+}
 .inner-banner .btn-custom:hover {
-	background-color: #E35605
+	background-color: #E35605;
+    color: #000000;
 }
 
 /* a propos */
 #about {
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 10px;
 }
 
 .about article {
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-top: 10px;
+	margin-bottom: 30px;
 }
 
 .about article h2 {
@@ -156,16 +161,13 @@ a, a:hover {
 
 .portfolio {
 	background-color: #eeeeee;
-	height: 700px;
+    text-align: center;
 }
 
-#portfolio {
-	text-align: center;
-}
+
 
 .portfolio .item-folio {
     height: 100%;
-	background-color: #E37B40
 }
 
 #imgRobot {
@@ -174,12 +176,23 @@ a, a:hover {
     height: 100%
 }
 
+#img_deus {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 /* modal */
 
 
 #formulaire {
 	display: block;
 	margin-left: 27%;
+}
+
+#modal_header {
+    background-color: #E37B40;
 }
 
 .form-control{
@@ -265,7 +278,7 @@ form.go-right input:focus + label, form.go-right textarea:focus + label {
 	padding-top: 5px;
 }
 
-.btn-custom {
+.btn-custom:hover {
 	color: #E35605;
 }
 
@@ -313,3 +326,4 @@ form.go-right input:focus + label, form.go-right textarea:focus + label {
  	padding: 0;
  	margin: 0;
 }
+
