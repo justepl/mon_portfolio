@@ -1,228 +1,246 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html>
-	<head>
-		
-		<title> Mon Portfolio en ligne</title>
 
-		<!-- Font -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-		<link href="/open-iconic/font/css/open-iconic.css" rel="stylesheet">
-		<!-- Fin Font -->
+<head>
 
-		<!-- CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<!-- fin CSS -->
+    <title> Mon Portfolio en ligne</title>
 
-		<!-- meta -->
-		<meta charset="utf-8">
-		<!-- meta SEO -->
-        <meta name="description" content="la description de votre site : mettre des bons mots clés">
-        <meta name="keywords" content="webdesign, webddevelopper, developper front-end">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
-        <!-- fin meta-->
-	</head>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link href="/open-iconic/font/css/open-iconic.css" rel="stylesheet">
+    <!-- Fin Font -->
 
-	<body>
-		<!-- header -->
-		<header class="container-fluid header" id="header">
-			<nav class="navbar navbar-inverse navbar-fixed-top">
-			  <div class="container-fluid">
-			    <div class="navbar-header" id="menuLogo">
-			        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- fin CSS -->
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    <!-- meta SEO -->
+    <meta name="description" content="Mon portfolio: decouvrez mes projets et mes compétences à travers se site onePage.">
+    <meta name="keywords" content="webdesign, webddevelopper, developper front-end">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <!-- fin meta-->
+</head>
+
+<body>
+    <!-- header -->
+    <header class="container-fluid header" id="header">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header" id="menuLogo">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 			          <span class="icon-bar"></span>
 			          <span class="icon-bar"></span>
 			          <span class="icon-bar"></span>                        
 			      </button>
-			      <a class="navbar-brand" href="#" id="logo">Mon Portfolio</a>
-			    </div>
-			    <div  id="menu">
-			      <div class="collapse navbar-collapse" id="myNavbar">
-			        <ul class="nav navbar-nav" id="itemMenu">
-			          <li><a href="#Acceuil">Acceuil</a></li>
-			          <li><a href="#about">A propos</a></li>
-			          <li><a href="#portfolio">Portfolio</a></li>
-			          <li><a href="#contact">Contact</a></li>
-			        </ul>
-			      </div>
-			    </div>
-			  </div>
-			</nav>    
-		</header>
-		<!-- fin header -->
-
-		<!-- baniere -->
-		<section class="container-fluid banner" id="Acceuil">
-			<div class="ban">
-				<img src="img/bg.jpg" alt="banniére du site">
-			</div>
-			<div class="inner-banner">
-				<h1> Bienvenue sur mon portfolio</h1>
-				<button class="btn btn-custom" id="open_modal" data-toggle="modal" data-target="#myModal">Contactez-moi !</button>
-			</div>
-		</section>
-		<!-- fin baniere -->
-
-			<!-- modal -->
-			<div class="modal fade" id="myModal" role="dialog">
-                <div class="modal-dialog">
-
-                  <!-- Modal content-->
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      <h4 class="modal-title">Contactez-moi :</h4>
-                    </div>
-                    <div class="modal-body">
-                      <p style="text-align: center;">
-                      LAMATIERE Patrick : <br>
-                        <br>
-                      Telephone:  06.74.72.56.44 <br>
-                      Adresse mail: patrick.lamatiere@gmail.com<br>
-                      Adresse: 165 route de Freney 74700 Sallanches
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-                    </div>
-                  </div>
-
+                    <a class="navbar-brand" href="#" id="logo">Mon Portfolio</a>
                 </div>
-              </div>
+                <div id="menu">
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav" id="itemMenu">
+                            <li><a href="#Acceuil">Acceuil</a></li>
+                            <li><a href="#about">A propos</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- fin header -->
 
+    <!-- baniere -->
+    <section class="container-fluid banner" id="Acceuil">
+        <div class="ban">
+            <img src="img/bg.jpg" alt="banniére du site">
+        </div>
+        <div class="inner-banner">
+            <h1> Bienvenue sur mon portfolio</h1>
+            <button class="btn btn-custom" id="open_modal" data-toggle="modal" data-target="#myModal">Contactez-moi !</button>
+        </div>
+    </section>
+    <!-- fin baniere -->
 
-		<!-- à propos -->
-		<section class="container-fluid about">
-			<div class="container">
-				<div class="row">
-					<h2 id="about"> A propos de moi </h2>
-					<hr class="separator">
-					<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
-						<h2 class="subtitle is-4"> Mes Etudes </h2>
-                            <p id="etudes"> 
-                                <br>
-                                <br>                                
-                                En ce qui concerne mes études, je possède un baccalauréat technologique, plus précisement un baccalauréat "Science et Technique et l'Industrie et du Developpement Durable" avec l'option "Système d'Information et Numérique" (STI2D option SIN). J'ai obtenu ce diplôme avec la mention "bien". <br>
-                                <br>
-                                Je suis actuellement en BTS Systeme Numérique option Informatique Réseau (SNIR) au Lycée Charles-Poncet à Cluses.<br>
-                                <br>
-                                Pour l'avenir, je vise une entrée en Licence Professionnelle Developpeur Multisupport (DIM) à Annecy en Alternance.<br>
-                            </p>
-					</article>
+    <!-- modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
 
-					<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
-						<h2 class="subtitle is-4"> Experience </h2>                        
-                            <p id="experience">
-                                <br>
-                                <br>
-                                Mon experience professionnelle se compose essentiellement de stages et de jobs. Cela fait maintenant deux ans que j'enchaine, durant mes week-end et vacances scolaires le travail en interim. Je suis inscrit chez Arve Interim depuis deux ans. Grâce à eux je travaille dans des grandes surfaces, ce qui m'a permis de faire de la mise en rayon à intermarché Domancy, de la vente directe à la clientèle au rayon charcuterie-fromage-traiteur à Super U Magland. Actuellement je suis embauché jusqu'au 2 septembre 2018 en CDD à intermarché Dommancy en tant que caissier. <br>
-                                <br>
-                                J'ai également travaillé dans des restaurants étoilés, en commis de cuisine ou plongeur, j'ai fait de la manutention dans des hôtels de luxe à Megève, et skiman dans une station de ski à proximité de St-Nicolas-La-Chapelle.<br>
-                                <br>
-                                Enfin j'ai effectué des stages en entreprise, dont le plus important s'est déroulé l'année dernière au service BI (Business Intelligent) de Somfy Monde à Cluses pour une durée de 8 semaines. Ma fonction était de veiller au bon déroulement de la migration des différents "reports" lors d'un changement de plateforme (passage chez SAP) et de rectifier les erreurs.<br>
-                            </p>
-					</article>
-
-					<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
-						<h2 class="subtitle is-4"> Hobbies</h2>
-                            <p id="hobbies"> 
-                                <br>
-                                <br>
-                                J'ai plusieurs passions : je m'interresse bien sûr aux nouvelles technologies.<br>
-                                <br>
-                                Je suis également musicien: Je joue du cor d'harmonie dans un orchestre d'harmonie, une fanfare et un brass-band. Je pratique également de la basse électrique dans deux groupes: un groupe de metal et un groupe de jazz.<br>
-                                <br>
-                                Je fais aussi du sport, comme le DH (VTT de descente extreme) l'été ou le ski freeride l'hiver. Je suis égalament motard et c'est donc un plaisir d'aller enchainer quelques virages avec d'autres collègues motards.
-                            </p>
-						
-					</article>
-				</div>
-			</div>			
-		</section>
-		<!-- fin à propos -->
-
-		<!-- portfolio -->
-		<section class="container-fluid portfolio">
-			<div class="container">
-				<h2 id="portfolio"> Mon Portfolio</h2>
-				<hr class="separator">
-				<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
-                        <a href="https://sites.google.com/a/charles-poncet.net/pimocr18/"><img src="img/robotCellule.jpg" id="imgRobot"></a>
-				</article>
-
-				<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
-
-				</article>
-
-				<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
-
-				</article>
-
-				<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
-
-				</article>
-				<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
-
-				</article>
-
-				<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
-
-				</article>
-
-				<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
-
-				</article>
-
-				<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
-
-				</article>
-			</div>
-		</section>
-		<!-- fin portfolio-->
-
-		<!-- footer / contacts -->
-		<div class="container-fluid" id="contact">
-            <footer class="footer">
-                <h2 class="txtCenter"> Contactez-moi </h2>
-                <div class="footer-information">
-                    <p> LAMATIERE Patrick</p>
-                    <p> 165 Route Du Freney</p>
-                    <p> 74700 Sallanches</p>
-                    <br>
-                    <p>
-                        Téléphone :
-                        <a href="tel:+33674725644"> 06.74.72.56.44</a> <br>
-                        Mail :
-                        <a href="mailto:patrick.lamatiere@gmail.com"> patrick.lamatiere@gmail.com</a>
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" id="modal_header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Contactez-moi :</h4>
+                </div>
+                <div class="modal-body">
+                    <p style="text-align: center;">
+                        LAMATIERE Patrick : <br>
+                        <br> Telephone: <a href="tel:+33674725644">06.74.72.56.44></a> <br> Adresse mail: <a href="mailto:patrick.lamatiere@gmail.com">patrick.lamatiere@gmail.com</a><br> Adresse: 165 route de Freney 74700 Sallanches
                     </p>
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com/patrick.lamatiere">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- à propos -->
+    <section class="container-fluid about">
+        <div class="container">
+            <div class="row">
+                <h2 id="about"> A propos de moi </h2>
+                <hr class="separator">
+                <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                    <h2 class="subtitle is-4"> Mes Etudes </h2>
+                    <p id="etudes">
+                        <br>
+                        <br> En ce qui concerne mes études, je possède un baccalauréat technologique, plus précisement un baccalauréat "Science et Technique et l'Industrie et du Developpement Durable" avec l'option "Système d'Information et Numérique" (STI2D option SIN). J'ai obtenu ce diplôme avec la mention "bien". <br>
+                        <br> Je suis actuellement en BTS Systeme Numérique option Informatique Réseau (SNIR) au Lycée Charles-Poncet à Cluses.<br>
+                        <br> Pour l'avenir, je vise une entrée en Licence Professionnelle Developpeur Multisupport (DIM) à Annecy en Alternance.<br>
+                    </p>
+                </article>
+
+                <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                    <h2 class="subtitle is-4"> Experience </h2>
+                    <p id="experience">
+                        <br>
+                        <br> Mon experience professionnelle se compose essentiellement de stages et de jobs. Cela fait maintenant deux ans que j'enchaine, durant mes week-end et vacances scolaires le travail en interim. Je suis inscrit chez Arve Interim depuis deux ans. Grâce à eux je travaille dans des grandes surfaces, ce qui m'a permis de faire de la mise en rayon à intermarché Domancy, de la vente directe à la clientèle au rayon charcuterie-fromage-traiteur à Super U Magland. Actuellement je suis embauché jusqu'au 2 septembre 2018 en CDD à intermarché Dommancy en tant que caissier. <br>
+                        <br> J'ai également travaillé dans des restaurants étoilés, en commis de cuisine ou plongeur, j'ai fait de la manutention dans des hôtels de luxe à Megève, et skiman dans une station de ski à proximité de St-Nicolas-La-Chapelle.<br>
+                        <br> Enfin j'ai effectué des stages en entreprise, dont le plus important s'est déroulé l'année dernière au service BI (Business Intelligent) de Somfy Monde à Cluses pour une durée de 8 semaines. Ma fonction était de veiller au bon déroulement de la migration des différents "reports" lors d'un changement de plateforme (passage chez SAP) et de rectifier les erreurs.<br>
+                    </p>
+                </article>
+
+                <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                    <h2 class="subtitle is-4"> Hobbies</h2>
+                    <p id="hobbies">
+                        <br>
+                        <br> J'ai plusieurs passions : je m'interresse bien sûr aux nouvelles technologies.<br>
+                        <br> Je suis également musicien: Je joue du cor d'harmonie dans un orchestre d'harmonie, une fanfare et un brass-band. Je pratique également de la basse électrique dans deux groupes: un groupe de metal et un groupe de jazz.<br>
+                        <br> Je fais aussi du sport, comme le DH (VTT de descente extreme) l'été ou le ski freeride l'hiver. Je suis égalament motard et c'est donc un plaisir d'aller enchainer quelques virages avec d'autres collègues motards.
+                    </p>
+
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- fin à propos -->
+
+    <!-- portfolio -->
+    <section class="container-fluid portfolio">
+        <div class="container">
+            <h2 id="portfolio"> Mon Portfolio</h2>
+            <hr class="separator">
+            <article class="item-folio col-md-12 col-sm-12" id="article_deus">
+                <div class="col-md-4 col-sm-12" id="img_article">
+                <img class="img-fluid" id="img_deus" src="img/DEUS.jpg">
+                </div>
+                <div class="col-md-8 col-sm-12" id="txt_article">
+                    <h4>Projet DEUS:</h4>
+                    <p>
+                        Ce projet est un projet de terminal, l'objectif etait de concevoir un drône terrestre pouvant être controlé par un smartphone (via Bluetooth), par un joystick, ou alors via un ordinateur. il devait également nous renvoyer un retour vidéo direct via une Raspberry Pi. Ce projet à été fini dans les temps et nous à valus une note de 18/20 pour notre BAC. Un bras avait également été mis sur le drône à la fin du projet afin de le rendre encore plus fonctionel, mais le temps manquant, nous n'avont pas eu le temps de terminer l'application de controle du bras.
+                    </p>
+                </div>
+            </article>                
+                
+            <article>
+                <div class="col-md-8 col-sm-12" id="txt_article">
+                    <h4>Projet Linux server</h4>
+                    <p>
+                        Mise en place de service tel que des serveurs web, ftp, MySQL... dont un Serveur Web servant à controler une machine à café connectée (Colibri), un service video afin de diffuser les images d'un caméra IP en temps réel. Mise en place d'un CMS WordPress sur Linux Server.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-12" id="img_article">
+                    <img class="img-fluid" id="img_deus" src="img/itswork.png">
+                </div>
+            </article>
+            
+            <article class="item-folio col-md-12 col-sm-12" id="article_deus">
+                <div class="col-md-4 col-sm-12" id="img_article">
+                <img class="img-fluid" id="img_deus" src="img/DEUS.jpg">
+                </div>
+                <div class="col-md-8 col-sm-12" id="txt_article">
+                    <h4>Projet de stage à SOMFY:</h4>
+                    <p>
+                        Durant mon stage, j'ai eu comme projet de veiller à la bonne migration des fichiers du service BI de SOMFY Monde à Cluses. J'ai du faire la migration des différents fichier de l'ancienne version de logiciel de Business Intelligent. Ue fois la migration effectuée, il a fallut verifier les rapport afin de valider leur bonne migration et de les reprendre à l'aide de requêtes SQL afin que les rapport initiaux et finaux soit identiques.
+                    </p>
+                </div>
+            </article>
+            
+            <article>
+                <div class="col-md-8 col-sm-12" id="txt_article">
+                    <h4>Projet de BTS</h4>
+                    <p>
+                        Mise en place de service tel que des serveurs web, ftp, MySQL... dont un Serveur Web servant à controler une machine à café connectée (Colibri), un service video afin de diffuser les images d'un caméra IP en temps réel. Mise en place d'un CMS WordPress sur Linux Server.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-12" id="img_article">
+                    <img class="img-fluid" id="img_deus" src="img/itswork.png">
+                </div>
+            </article>
+            
+            <article class="item-folio col-md-12 col-sm-12" id="article_deus">
+                <div class="col-md-4 col-sm-12" id="img_article">
+                <img class="img-fluid" id="img_deus" src="img/DEUS.jpg">
+                </div>
+                <div class="col-md-8 col-sm-12" id="txt_article">
+                    <h4>Projet personnel DHop :</h4>
+                    <p>
+                        Durant mon stage, j'ai eu comme projet de veiller à la bonne migration des fichiers du service BI de SOMFY Monde à Cluses. J'ai du faire la migration des différents fichier de l'ancienne version de logiciel de Business Intelligent. Ue fois la migration effectuée, il a fallut verifier les rapport afin de valider leur bonne migration et de les reprendre à l'aide de requêtes SQL afin que les rapport initiaux et finaux soit identiques.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- fin portfolio-->
+
+    <!-- footer / contacts -->
+    <div class="container-fluid" id="contact">
+        <footer class="footer">
+            <h2 class="txtCenter"> Contactez-moi </h2>
+            <div class="footer-information">
+                <p> LAMATIERE Patrick</p>
+                <p> 165 Route Du Freney</p>
+                <p> 74700 Sallanches</p>
+                <br>
+                <p>
+                    Téléphone :
+                    <a href="tel:+33674725644"> 06.74.72.56.44</a> <br> Mail :
+                    <a href="mailto:patrick.lamatiere@gmail.com"> patrick.lamatiere@gmail.com</a>
+                </p>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/patrick.lamatiere">
                                 <i class="fab fa-facebook-square iconFooter"></i>
                             </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/justepl/">
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/justepl/">
                                 <i class="fab fa-instagram iconFooter"></i>
                             </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/justepl74">
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/justepl74">
                                 <i class="fab fa-twitter-square iconFooter"></i>
                             </a>
-                        </li>
-                    </ul>
-                </div>
-            </footer>
-        </div>
-		<!-- fin ffooter / contact -->
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- fin ffooter / contact -->
 
-		<!-- JavaScript -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
- 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
-        <!-- fin JavaScript -->
-	</body>
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- fin JavaScript -->
+</body>
+
 </html>
