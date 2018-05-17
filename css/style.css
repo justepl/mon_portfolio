@@ -349,11 +349,11 @@ form.go-right input:focus + label, form.go-right textarea:focus + label {
  	margin-left: 10px;
  	margin-right: 10px;
  	margin-bottom: 20px;
-    color: aliceblue
+    color: dimgray;
 }
 
 .footer .iconFooter:hover {
-    color: dimgray;
+    color: orange;
 }
 
 #contact {
