@@ -31,6 +31,7 @@ a, a:hover {
 	border: none;
 	box-shadow: none;
 	background-color: #E37B40;
+    border-radius: 1.5px;
 }
 
                                                                                                         /* header */
@@ -170,7 +171,8 @@ a, a:hover {
                                                                             /* portfolio */
 
 .article_portfolio {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .article_portfolio:hover {
