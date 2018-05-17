@@ -121,15 +121,15 @@ a, a:hover {
 }
     
     #etudes {
-        text-align: justify;
+        text-align: center;
     }
     
     #experience {
-        text-align: justify;
+        text-align: center;
     }
     
     #hobbies {
-        text-align: justify;
+        text-align: center;
     }
 
 }
